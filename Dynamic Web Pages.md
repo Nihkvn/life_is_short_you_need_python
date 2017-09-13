@@ -637,11 +637,11 @@ The Overall Process for Creating Dynamic Web Pages
 
 2. Markup: Plain text may be marked up to include formatting. The formatting may be easily interpreted only by a computer, or it may be more human readable. One form of human-readable markup is hypertext markup language (HTML). [Format of Web Page Markup]
 
-    1. HTML markup involves tags enclosed in angle braces. Ending tags start with ‘/’. For instance <title>Computer Science</title>.Tags may be modified with attributes specified similar to Python string assignments, for example the text input field tag,
+        1. HTML markup involves tags enclosed in angle braces. Ending tags start with ‘/’. For instance <title>Computer Science</title>.Tags may be modified with attributes specified similar to Python string assignments, for example the text input field tag,
 ```
 <input value="red" name="color" type="radio">
 ```
-    2. Modern editors allow HTML to be edited much like in a word processor. Two views of the data are useful: the formatted view and the source view, showing the raw HTML markup.
+        2. Modern editors allow HTML to be edited much like in a word processor. Two views of the data are useful: the formatted view and the source view, showing the raw HTML markup.
 
 3. Python and HTML: Since HTML is just a text string, it can easily be manipulated in Python, and read and written to text files. [Dynamically Created Static Local Pages from Python]
 
